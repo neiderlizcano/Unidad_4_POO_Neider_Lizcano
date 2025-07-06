@@ -28,6 +28,7 @@ public class Ejercicio1 {
             this.numeroPaginas = numeroPaginas;
         }
 
+        
         @Override
         public String toString() {
             return "Los detalles del libro son los siguientes: \n" + "Título: " + this.titulo
