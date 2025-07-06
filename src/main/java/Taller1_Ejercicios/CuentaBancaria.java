@@ -27,7 +27,7 @@ public class CuentaBancaria {
 
     @Override
     public String toString() {
-        return "Datos de la CuentaBancaria {\n"
+        return "Datos de la CuentaBancaria \n"
                 + "  Número de la Cuenta: '" + numeroCuenta + "',\n"
                 + "  Saldo: " + saldo + ",\n"
                 + "  Tipo de Cuenta: '" + tipoCuenta + "'\n"
