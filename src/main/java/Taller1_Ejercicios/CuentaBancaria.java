@@ -7,9 +7,10 @@ public class CuentaBancaria {
  1. Un constructor por defecto.
  2. Un constructor parametrizado con dos parámetros (numeroCuenta y tipoCuenta).
  3. Un constructor sobrecargado con tres parámetros (numeroCuenta, saldo, y tipoCuenta).*/
-    int numeroCuenta;
-    double saldo;
-    String tipoCuenta;
+    
+    private int numeroCuenta;
+    private double saldo;
+    private String tipoCuenta;
 
     public CuentaBancaria() {
     }

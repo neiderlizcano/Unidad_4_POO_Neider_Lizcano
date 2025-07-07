@@ -8,8 +8,8 @@ public class Libro {
  2. Un constructor parametrizado que permita asignar valores específicos.
  3. Métodos para mostrar los detalles del libro   
      */
-    String titulo, autor;
-    int numeroPaginas;
+    private String titulo, autor;
+    private int numeroPaginas;
 
     public Libro() {
         titulo = "desconocido";

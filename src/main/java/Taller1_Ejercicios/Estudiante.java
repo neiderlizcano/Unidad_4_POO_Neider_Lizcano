@@ -8,8 +8,8 @@ public class Estudiante {
  1. Un constructor por defecto que asigne valores genéricos.
  2. Un constructor que acepte como parámetros el nombre y la edad.
  3. Un constructor que acepte todos los parámetros y utilice this() para llamar a otro constructor */
-    String nombre, curso;
-    int edad;
+    private String nombre, curso;
+    private int edad;
 
     public Estudiante() {
     }
