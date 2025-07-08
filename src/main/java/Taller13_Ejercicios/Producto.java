@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Taller13_Ejercicios;
+
+/**
+ Ejercicio 3: Uso Incorrecto de Clases Abstractas e Interfaces
+ 1. Intenta crear una clase concreta que implemente una interfaz sin proporcionar implementaciones de sus métodos y observa los errores de
+ compilación.
+ 2. Intenta definir métodos predeterminados en una clase abstracta y discute por qué esto no es posible.
+ */
+public abstract class Producto {
+    
+    public void mostrarInformacion() {
+        System.out.println("Producto disponible en el supermercado.");
+    }
+
+    // En las clases abstractas NO se puede usar default
+    // public default double calcularPrecio() {
+    //     return 0.0;
+    // }
+
+    // La forma correcta es dejar el método abstracto
+    public abstract double calcularPrecio();
+}
+
