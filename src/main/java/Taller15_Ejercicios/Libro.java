@@ -20,6 +20,20 @@ public class Libro {
         this.paginas = paginas;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getPaginas() {
+        return paginas;
+    }
+    
+    
+
     public void mostrarInformacion() {
         System.out.println("Título: " + titulo);
         System.out.println("Autor: " + autor);
