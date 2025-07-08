@@ -9,5 +9,11 @@ package Taller10_Ejercicios;
  * @author EA440 Operator
  */
 public class Prueba_vehiculo_bicicleta {
-    
+    public static void main(String[] args) {
+        Vehiculo vehiculo = new Vehiculo();
+        Vehiculo bicicleta = new Bicicleta();
+
+        vehiculo.moverse();     
+        bicicleta.moverse();    
+    }
 }
